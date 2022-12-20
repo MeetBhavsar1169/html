@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pay online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <h2> <strong>User details </strong></h2>
+    <form action="backend.php" target="_blank" class="form1" >
+     <div>   First name <input type="text" name="first name"></div>
+<br>
+    <div>   last name <input type="text" name="last name">
+    </div><br>
+    <fieldset>
+        <legend>Gender</legend>
+       Male: <input type="radio" name="radio" id="male"> female: <input type="radio" name="radio" id="female">
+        Other: <input type="radio" name="radio" id="other">
+    </fieldset><br>
+       
+        <div>   Phone no.: <input type="number" name="phone info"></div>
+   <br>
+   <div>   Adress:<textarea name="adress" id="adress" cols="10" rows="20" style="width: 340px; height: 17px;"></textarea></div>  <br>
+ Email: <input type="email" name="" id="">
+    </form>
+<h2>Payment details</h2>
+<form action="backend.php" target="_blank" class="form2">
+<DIV>  Name of your bank <select name="bank" id="bank">
+    <option value="sbi">SBI</option>
+    <option value="hdfc">AXIS</option>
+    <option value="Axis">HDFC</option>
+    <option value="Other">OTHER</option>
+</select></DIV><br>
+<DIV>type of your card <select name="card" id="card">
+    <option value="RUPAY">RUPAY</option>
+    <option value="VISA">VISA</option>
+    <option value="CREDIT">CREDIT</option>
+    <option value="DEBIT">DEBIT</option>
+</select></DIV><br>
+<div> Enter your Card no.: <input type="number" name="" id=""></div><br>
+<div> Enter your CVV: <input type="password" name="" id=""></div><br>
+<div> Enter your Date of expiery: <input type="date" name="" id=""></div><br>
+<input type="submit" value="pay now">
+</body>
+
+
+</html>

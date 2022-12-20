@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning JS</title>
+</head>
+
+<body>
+    <div class="con">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, debitis rem, ex voluptatem vero sit
+        dolorum inventore laudantium atque rerum ipsa dolore officiis.</div>
+    <script>
+        alert("this website uses cookies");
+        let name= prompt("what's your name","guest");
+        console.log(name);
+        friends=["het","jayraj","om","akshar"];
+        friends.forEach(function f(element){
+            console.log("hello friend "+element);
+        });
+        let bro={
+            name:"harshil",
+            number:9328131089,
+            adress:"Viramgam"
+        }
+        for(key in bro){
+            console.log(`the ${key} of bro is ${bro[key]}`)
+        }
+    </script>
+</body>
+
+</html>

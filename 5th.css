@@ -1,0 +1,23 @@
+h3{
+    background-color: grey;
+    color:pink;
+}
+#thirdpara{
+    color: purple;
+    background-color: bisque; 
+}
+#firpara{
+    font-family: algerian;
+    background-color: rgb(191, 143, 22);
+    color: #44ff54;
+}
+#secpara{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:burlywood;
+}
+#fourpara{
+    background-color: rgb(116, 116, 230);
+    border: 2px solid blue;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

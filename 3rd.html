@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Fill up the following form </h1><br>
+    <form action="backend.php" target="_blank">
+        <div>
+            <label for="Meet" color="blue">Name</label>
+            <input type="text" name="my name" id="Meet">
+        </div> <br>
+        <div>
+            <label for="pro">profession</label>
+            <input type="text" name="my profession" id="pro">
+        </div> <br>
+        <div>
+            <label for="mail">email</label>
+            <input type="email" name="my email" id="mail">
+        </div> <br>
+
+        <div>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="my date" id="dob">
+        </div> <br>
+        <div>
+            
+            are you 18 or above? <input type="checkbox" name="eligiblity" >
+        </div> <br>
+        <div>
+            <label for="gender">select your gender:</label><br>
+             male:<input type="radio" name="eligiblity" ><br>
+             female:<input type="radio" name="eligiblity" ><br>
+             other:<input type="radio" name="eligiblity" ><br>
+        </div> <br>
+    <div>
+        <label for="">your reason for filling up this form</label>
+        <input type="textarea">
+    </div>
+    <div>
+        <label for="car">select the car you want </label>
+            <select name="mycar" id="car">
+                <option value="indica">Indica</option>
+                <option value="merce" selected>Mercedes</option>
+            </select>
+        
+    </div><br>
+        <div>
+            
+            you agree for our terms and conditions:<input type="checkbox" name="eligiblity" checked>
+        </div><br>
+            <a href="http://termsandconditions.com " target="_blank">Click here for detaliled info on terms and conditions</a>
+        <div>
+            <input type="submit" value="confirm your submission"><br>
+            <input type="reset" value="reset your form">
+        </div>                                       
+    </form>
+
+
+
+</body>
+
+</html>
